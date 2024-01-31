@@ -1,8 +1,8 @@
-//<reference types="cypress" />
+
 
 describe('example to-do app', () => {
   it('successfully loads', () => {
-    cy.visit('http://localhost:3000') // change URL to match your dev URL
+    cy.visit('http://localhost:3000') 
   })
 
   it("There is products on the page", () => {

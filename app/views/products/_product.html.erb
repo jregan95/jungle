@@ -6,7 +6,7 @@
       <span><%= humanized_money_with_symbol product.price %></span>
     </h1>
   <% end%>
-  <div>
+  <div class="cart" data-testid="cart-section">
  <% if product.quantity.zero? %>
   <p class="soldout" > Sold Out  </p>
   <% else %>
